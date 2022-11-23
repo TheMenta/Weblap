@@ -2,3 +2,9 @@ body{
     background-color:rgb(106, 224, 233);
     font-family: 'Playfair Display', serif;
 }
+nav ul li a {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
