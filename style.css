@@ -8,10 +8,6 @@ article{
     color: gray;
     font-size: large;
     font-weight: bold;
-    display: grid;
-    grid-template-areas: "h h h"
-                         "a a as"
-                         "f f f" ;
     
 
 }
@@ -34,5 +30,15 @@ nav ul li a {
     margin: 0;
     display: grid;
     grid-template-columns: auto auto;
+    
+}
+#termekek{
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+    display: grid;
+    grid-template-areas: "h h h"
+                         "a a as"
+                         "f f f" ;
     
 }
