@@ -1,4 +1,23 @@
 body{
     background-color:rgb(106, 224, 233);
     font-family: 'Playfair Display', serif;
+    display: grid;
+    grid-template-areas: "h h h"
+                         "a a as"
+                         "f f f" ;
+    
+}
+header{
+    grid-area: h;
+
+
+}
+article{
+    grid-area: a;
+}
+aside{
+    grid-area: as;
+}
+footer{
+    grid-area: f;
 }
