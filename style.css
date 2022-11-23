@@ -19,7 +19,7 @@ header{
 article{
     grid-area: a;
 }
-aside{
+#kosar{
     grid-area: as;
 }
 footer{
