@@ -1,4 +1,11 @@
 body{
     background-color:rgb(106, 224, 233);
     font-family: 'Playfair Display', serif;
+    font-size: medium;
+    
+}
+article{
+    color: gray;
+    font-size: large;
+    font-weight: bold;
 }
