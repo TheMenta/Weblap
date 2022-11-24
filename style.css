@@ -1,15 +1,27 @@
 body{
     background-color:rgb(184, 115, 136);
-    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
     font-size: medium;
     
 }
 article{
-    color: gray;
-    font-size: large;
-    font-weight: bold;
+    color: rgb(15, 15, 15);
+    font-size:medium;
+    font-weight:lighter;
     
 
+}
+article h3{
+    font-style: italic;
+    color: rgb(90, 23, 23);
+}
+footer p{
+    font-size: medium;
+    font-weight: lighter;
+}
+.cim{
+    color:rgb(90, 23, 23);
+    font-weight: bold;
 }
 header{
     grid-area: h;
