@@ -42,6 +42,10 @@ article{
     grid-area: a;
     
 }
+h1 { 
+    text-align: center;
+}
+
 aside{
     padding: 10px;
     grid-area: as;
