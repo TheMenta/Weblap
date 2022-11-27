@@ -75,8 +75,7 @@ nav ul{
     margin-bottom: 10px;
 }
 main{
-    font-size: large;
-    font-weight: bold;
+   
     display: grid;
     grid-template-areas: "h h  h"
                          "a a as"
