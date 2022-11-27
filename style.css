@@ -7,7 +7,11 @@ body{
 nav ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-right: 25px;
+    padding-right: 10px;
+    width: 100px;
+}
+nav ul li{
+    padding-right: 15px;
 }
 article{
     color: rgb(15, 15, 15);
