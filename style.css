@@ -28,11 +28,18 @@ header{
 
 
 }
+header h1{
+    text-align: center;
+}
 article{
     grid-area: a;
 }
-#kosar{
+aside{
+    padding: 10px;
     grid-area: as;
+    border: solid black 2px;
+    max-height: 200px;
+    margin: 5px;
 }
 footer{
     grid-area: f;
@@ -42,15 +49,46 @@ nav ul li a {
     margin: 0;
     display: grid;
     grid-template-columns: auto auto;
+        
+    
+}
+ul{
+    list-style-type: none;
+}
+
+.aru{
+    padding: 10px;
+    max-width: 400px;
+    border: solid black 2px;
+   margin: 5px ;
+
+
+}
+.aru img{
+    max-width: 100%;
     
 }
 #termekek{
-    color: gray;
+    display:  grid;
+grid-template-columns: 1fr 1fr;
+}
+main{
+    color: rgb(0, 0, 0);
     font-size: large;
     font-weight: bold;
     display: grid;
-    grid-template-areas: "h h h"
+    grid-template-areas: "h h  h"
                          "a a as"
                          "f f f" ;
     
 }
+@media only screen and (max-width: 400px) {
+    main{
+        display: grid;
+        grid-template-areas: "h"
+        "as"
+        "a"
+        "f"
+        ;
+    }
+    }
