@@ -56,7 +56,8 @@ footer{
 nav ul li a {
     padding: 0;
     margin: 0;
-    text-decoration-style: none;
+    text-decoration-style:none;
+    color: rgb(58, 27, 27);
 }
 nav ul{
     list-style-type: none;
