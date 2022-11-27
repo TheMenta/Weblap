@@ -56,6 +56,9 @@ nav ul li a {
 nav ul{
     list-style-type: none;
 }
+ul{
+    list-style-type: none
+}
 
 .aru{
     padding: 10px;
