@@ -6,9 +6,12 @@ body{
 }
 nav ul{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+   
     padding-right: 10px;
-    width: 100px;
+    grid-template-areas: "a a";
+}
+a{
+    grid-area: a;
 }
 nav ul li{
     padding-right: 15px;
@@ -77,6 +80,9 @@ ul{
 
 
 }
+#logo{
+    width: 100%;
+}
 .aru img{
     max-width: 100%;
     
@@ -107,5 +113,10 @@ main{
         grid-template-columns: 1fr;
        
     }
-
+    nav ul {
+        display: grid;
+        padding-right: 10px;
+        grid-template-areas: "a"
+                             "a ";
+    }
     }
