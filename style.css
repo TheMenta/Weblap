@@ -6,9 +6,9 @@ body{
 }
 nav ul{
     display: grid;
-   
+    grid-template-columns: 1fr  1fr;
     padding-right: 10px;
-    grid-template-areas: "a a";
+    
 }
 a{
     grid-area: a;
