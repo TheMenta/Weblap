@@ -20,6 +20,9 @@ article{
     
 
 }
+nav ul li a:hover{
+    color: blueviolet;
+}
 article h3{
     font-style: italic;
     color: rgb(90, 23, 23);
