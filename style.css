@@ -6,7 +6,7 @@ body{
 }
 nav ul{
     display: grid;
-    grid-template-columns: 1fr  1fr;
+    grid-template-columns: 1fr 1fr;
     padding-right: 10px;
     
 }
@@ -117,11 +117,11 @@ main{
        
     }
 
-    nav ul {
+    nav ul{
         display: grid;
+        grid-template-columns: 1fr ;
         padding-right: 10px;
-        grid-template-areas: "a"
-                             "a ";
+        
     }
 
     }
