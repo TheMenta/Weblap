@@ -14,7 +14,7 @@ nav ul li{
     padding-right: 15px;
 }
 article{
-    color: rgb(15, 15, 15);
+    color: rgb(3, 3, 3);
     font-size:medium;
     font-weight:lighter;
     
@@ -29,7 +29,7 @@ footer p{
     font-weight: lighter;
 }
 .cim{
-    color:rgb(90, 23, 23);
+    color:rgb(68, 13, 13);
     font-weight: bold;
 }
 header{
@@ -48,7 +48,7 @@ h1 {
 aside{
     padding: 10px;
     grid-area: as;
-    border: solid rgb(73, 70, 70) 1px;
+    border: solid rgb(63, 59, 59) 1px;
     max-height: 200px;
     margin: 5px;
 }
@@ -97,9 +97,9 @@ main{
     main{
         display: grid;
         grid-template-areas: "h"
-        "as"
-        "a"
-        "f"
+                            "as"
+                            "a"
+                             "f"
         ;
     }
     #termekek{
